@@ -47,7 +47,7 @@ class bahasa_model extends Base_module_model {
 		$fields['author_id']['type'] = 'hidden';
     $fields['content']['img_folder'] = 'artikel/';
     $fields['image']['folder'] = 'images/artikel/';
-    $fields['thumb_image']['folder'] = 'images/artikel/thumbs/';
+    $fields['thumb_image']['folder'] = 'images/artikel/thumbs';
     $fields['prodi']['value'] = $prodi;
     $fields['prodi']['type'] = 'hidden';
 
