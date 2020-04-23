@@ -40,10 +40,17 @@ $config['modules']['guestbook'] = array(
 	'model_location' => 'guestbook'
 );
 
+$config['modules']['Bahasa'] = array(
+	'model_name' => 'Bahasa_model',
+	'model_location' => 'pgri'
+);
 
+$config['modules']['PPKN'] = array(
+	'model_name' => 'Ppkn_model',
+	'model_location' => 'pgri'
+);
 
-
-$config['modules']['komputer'] = array(
-	'preview_path' => '', // put in the preview path on the site e.g products/{slug}
-	'model_location' => '', // put in the advanced module name here
+$config['modules']['Inggris'] = array(
+	'model_name' => 'Inggris_model',
+	'model_location' => 'pgri'
 );
